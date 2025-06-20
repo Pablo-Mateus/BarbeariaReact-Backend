@@ -1,19 +1,36 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-app.use(cors());
-app.use(express.json());
-const port = 3000;
+const port = 5000;
 const mongoose = require("mongoose");
-const forms = require("./schemas/Forms");
+const User = require("./schemas/User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
+const cookieParser = require("cookie-parser");
+const asthenticateToken = require("./middleware/auth");
+
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  })
+);
+app.use(express.json());
+
+app.get("/check-auth", asthenticateToken, (req, res) => {
+  if (req.user) {
+    return res.status(200).json({ isAuthenticated: true, user: req.user.id });
+  }
+  return res
+    .status(401)
+    .json({ isAuthenticated: false, message: "Não autenticado" });
+});
 
 app.post("/auth/register", async (req, res) => {
-  const { name, email, password, confirmpassword } = req.body;
+  const { nome, email, telefone, senha, confirmarsenha } = req.body;
   console.log(req.body);
-  if (!name) {
+  if (!nome) {
     return res.json({ msg: "O nome é obrigatório" });
   }
 
@@ -21,21 +38,21 @@ app.post("/auth/register", async (req, res) => {
     return res.json({ msg: "O email é obrigatório" });
   }
 
-  if (!password) {
+  if (!senha) {
     return res.status(422).json({ msg: "A senha é obrigatório" });
   }
 
-  if (password !== confirmpassword) {
+  if (senha !== confirmarsenha) {
     return res.status(422).json({ msg: "As senhas não conferem" });
   }
 
-  if (password.length < 10) {
+  if (senha.length < 10) {
     return res
       .status(422)
       .json({ msg: "A senha deve conter no mínimo 10 caracteres" });
   }
 
-  if (!/[!@#$%&*]/.test(password)) {
+  if (!/[!@#$%&*]/.test(senha)) {
     return res
       .status(422)
       .json({ msg: "A senha deve conter um caractere especial" });
@@ -51,20 +68,21 @@ app.post("/auth/register", async (req, res) => {
 
     //Create password
     const salt = await bcrypt.genSalt(12);
-    const passwordHash = await bcrypt.hash(password, salt);
+    const passwordHash = await bcrypt.hash(senha, salt);
 
     //Create User
     const user = new User({
-      name,
+      nome,
       email,
-      phone: req.body.tel,
-      password: passwordHash,
+      telefone,
+      senha: passwordHash,
     });
     await user.save();
 
     const token = jwt.sign({ id: user.email }, process.env.SECRET, {
       expiresIn: "1h",
     });
+    console.log(token);
     res.cookie("token", token, { httpOnly: true });
     const decoded = jwt.verify(token, process.env.SECRET);
 
