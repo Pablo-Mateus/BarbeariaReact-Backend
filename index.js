@@ -8,17 +8,21 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 const cookieParser = require("cookie-parser");
-const asthenticateToken = require("./middleware/auth");
+const authenticateToken = require("./middleware/auth");
 
 app.use(
   cors({
     origin: "http://localhost:5173",
     credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 app.use(express.json());
+app.use(cookieParser());
 
-app.get("/check-auth", asthenticateToken, (req, res) => {
+app.get("/check-auth", authenticateToken, (req, res) => {
+  console.log(req.user);
   if (req.user) {
     return res.status(200).json({ isAuthenticated: true, user: req.user.id });
   }
@@ -82,16 +86,10 @@ app.post("/auth/register", async (req, res) => {
     const token = jwt.sign({ id: user.email }, process.env.SECRET, {
       expiresIn: "1h",
     });
-    console.log(token);
-    res.cookie("token", token, { httpOnly: true });
-    const decoded = jwt.verify(token, process.env.SECRET);
 
-    if (decoded.id === "felipe@gmail.com") {
-      res.status(200).json({ redirect: "/logadoBarbeiro" });
-    }
-    if (decoded.id !== "felipe@gmail.com") {
-      res.status(200).json({ redirect: "/logado" });
-    }
+    res.cookie("token", token, { httpOnly: true });
+    console.log(token);
+    const decoded = jwt.verify(token, process.env.SECRET);
   } catch (error) {
     console.log(error);
     res.status(500).json({
