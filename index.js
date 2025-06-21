@@ -21,16 +21,6 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
-app.get("/check-auth", authenticateToken, (req, res) => {
-  console.log(req.user);
-  if (req.user) {
-    return res.status(200).json({ isAuthenticated: true, user: req.user.id });
-  }
-  return res
-    .status(401)
-    .json({ isAuthenticated: false, message: "Não autenticado" });
-});
-
 app.post("/auth/register", async (req, res) => {
   const { nome, email, telefone, senha, confirmarsenha } = req.body;
   console.log(req.body);
@@ -88,7 +78,7 @@ app.post("/auth/register", async (req, res) => {
     });
 
     res.cookie("token", token, { httpOnly: true });
-    console.log(token);
+
     const decoded = jwt.verify(token, process.env.SECRET);
   } catch (error) {
     console.log(error);
@@ -96,6 +86,11 @@ app.post("/auth/register", async (req, res) => {
       msg: "Aconteceu um erro no servidor, tente novamente mais tarde.",
     });
   }
+});
+
+app.get("/check-auth", authenticateToken, (req, res, next) => {
+  const token = req.cookies.token;
+  console.log(token);
 });
 
 try {
