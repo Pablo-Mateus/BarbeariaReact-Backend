@@ -104,17 +104,25 @@ app.post("/auth/register", async (req, res) => {
 });
 
 app.post("/auth/login", async (req, res) => {
-  const user = await User.findOne({ email: req.body.email });
-  
-  const senha = bcrypt.compare(req.body.senha, user.senha);
-  console.log(senha);
-
-
-
+  const { senha, email } = req.body;
+  if (!email) {
+    res.status(400).json({ message: "Insira seu email" });
+  }
   if (!senha) {
+    res.status(400).json({ message: "Insira sua senha" });
+  }
+
+  const user = await User.findOne({ email: email });
+  if (!user) {
+    res.status(400).json({ message: "Esse email não existe" });
+  }
+
+  const senhaCompare = await bcrypt.compare(senha, user.senha);
+
+  if (!senhaCompare) {
     res.status(400).json({ message: "Senha inválida" });
   }
-  if (req.body.email !== user.email) {
+  if (email !== user.email) {
     res
       .status(400)
       .json({ message: "Não existe usuário cadastrado com esse email" });
