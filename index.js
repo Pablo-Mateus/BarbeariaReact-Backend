@@ -18,11 +18,11 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
+
 app.use(express.json());
 app.use(cookieParser());
 
 app.get("/check-auth", authenticateToken, (req, res) => {
-  console.log(req.user);
   if (req.user) {
     return res.status(200).json({ isAuthenticated: true, user: req.user.id });
   }
@@ -33,17 +33,20 @@ app.get("/check-auth", authenticateToken, (req, res) => {
 
 app.post("/auth/register", async (req, res) => {
   const { nome, email, telefone, senha, confirmarsenha } = req.body;
-  console.log(req.body);
   if (!nome) {
-    return res.json({ msg: "O nome é obrigatório" });
+    return res.status(422).json({ msg: "O nome é obrigatório" });
   }
 
   if (!email) {
-    return res.json({ msg: "O email é obrigatório" });
+    return res.status(422).json({ msg: "O email é obrigatório" });
   }
 
   if (!senha) {
     return res.status(422).json({ msg: "A senha é obrigatório" });
+  }
+
+  if (!telefone) {
+    return res.status(422).json({ msg: "O telefone é obrigatório" });
   }
 
   if (senha !== confirmarsenha) {
@@ -87,14 +90,49 @@ app.post("/auth/register", async (req, res) => {
       expiresIn: "1h",
     });
 
-    res.cookie("token", token, { httpOnly: true });
-    console.log(token);
     const decoded = jwt.verify(token, process.env.SECRET);
+
+    res
+      .status(200)
+      .json({ message: "Usuário autenticado com sucesso!", token: token });
   } catch (error) {
     console.log(error);
     res.status(500).json({
       msg: "Aconteceu um erro no servidor, tente novamente mais tarde.",
     });
+  }
+});
+
+app.post("/auth/login", async (req, res) => {
+  const user = await User.findOne({ email: req.body.email });
+  
+  const senha = bcrypt.compare(req.body.senha, user.senha);
+  console.log(senha);
+
+
+
+  if (!senha) {
+    res.status(400).json({ message: "Senha inválida" });
+  }
+  if (req.body.email !== user.email) {
+    res
+      .status(400)
+      .json({ message: "Não existe usuário cadastrado com esse email" });
+  }
+
+  try {
+    const token = jwt.sign({ id: user.email }, process.env.SECRET, {
+      expiresIn: "1h",
+    });
+
+    res.status(200).json({
+      message: "Autenticado com sucesso",
+      token: token,
+      redirect: "/logado",
+    });
+  } catch (err) {
+    console.log(err);
+    res.status(404).json({ message: err });
   }
 });
 
