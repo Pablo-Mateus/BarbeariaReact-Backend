@@ -6,6 +6,8 @@ const userSchema = new mongoose.Schema({
   telefone: String,
   senha: String,
   confirmarsenha: String,
+  resetToken: String,
+  resetTokenExpire: Date,
 });
 
 const User = mongoose.model("User", userSchema);

@@ -9,7 +9,7 @@ const jwt = require("jsonwebtoken");
 require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const authenticateToken = require("./middleware/auth");
-
+const noidemailer = require("nodemailer");
 app.use(
   cors({
     origin: "http://localhost:5173",
@@ -163,6 +163,44 @@ app.post("/auth/login", async (req, res) => {
   } catch (err) {
     console.log(err);
     res.status(404).json({ message: err });
+  }
+});
+
+app.post("/resetPassword", async (req, res) => {
+  const { email } = req.body;
+  try {
+    const user = await User.findOne({ email: email });
+    if (!user) {
+      return res.status(400).json({ message: "Email não cadastrado!" });
+    }
+
+    const transporter = noidemailer.createTransport({
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
+      auth: {
+        user: process.env.USER,
+        pass: process.env.PASS,
+      },
+    });
+    const resetToken = crypto.randomBytes(32).toString("hex");
+    const resetTokenExpire = Date.now() + 3600000;
+    user.resetToken = resetToken;
+    user.resetTokenExpire = resetTokenExpire;
+    await user.save();
+
+    const resetLink = `http://localhost:5000/forgotPass?token=${resetToken}`;
+    await transporter.sendMail({
+      from: `Suporte <${process.env.USER}>`,
+      to: `${user.email}`,
+      subject: "Redefinição de senha",
+      html: `<p>Para redefinir sua senha, clique no link abaixo: </p>
+      <a href="${resetLink}">${resetLink}</a>
+      <p>Este link expira em 1 hora.</p>
+      `,
+    });
+  } catch (err) {
+    console.log(err);
   }
 });
 
