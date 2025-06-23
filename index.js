@@ -92,9 +92,20 @@ app.post("/auth/register", async (req, res) => {
 
     const decoded = jwt.verify(token, process.env.SECRET);
 
-    res
-      .status(200)
-      .json({ message: "Usuário autenticado com sucesso!", token: token });
+    if (decoded.id === "felipe@gmail.com") {
+      return res.status(200).json({
+        message: "Autenticado com sucesso",
+        token: token,
+        redirect: "/logadoBarbeiro",
+        decoded,
+      });
+    }
+    return res.status(200).json({
+      message: "Autenticado com sucesso",
+      token: token,
+      redirect: "/logado",
+      decoded,
+    });
   } catch (error) {
     console.log(error);
     res.status(500).json({
@@ -133,10 +144,21 @@ app.post("/auth/login", async (req, res) => {
       expiresIn: "1h",
     });
 
-    res.status(200).json({
+    const decoded = jwt.verify(token, process.env.SECRET);
+
+    if (decoded.id === "felipe@gmail.com") {
+      return res.status(200).json({
+        message: "Autenticado com sucesso",
+        token: token,
+        redirect: "/logadoBarbeiro",
+        decoded,
+      });
+    }
+    return res.status(200).json({
       message: "Autenticado com sucesso",
       token: token,
       redirect: "/logado",
+      decoded,
     });
   } catch (err) {
     console.log(err);
