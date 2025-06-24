@@ -10,6 +10,7 @@ require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const authenticateToken = require("./middleware/auth");
 const noidemailer = require("nodemailer");
+const crypto = require("crypto");
 app.use(
   cors({
     origin: "http://localhost:5173",
@@ -189,7 +190,8 @@ app.post("/resetPassword", async (req, res) => {
     user.resetTokenExpire = resetTokenExpire;
     await user.save();
 
-    const resetLink = `http://localhost:5000/forgotPass?token=${resetToken}`;
+    const resetLink = `http://localhost:5173/forgotPass?token=${resetToken}`;
+
     await transporter.sendMail({
       from: `Suporte <${process.env.USER}>`,
       to: `${user.email}`,
@@ -199,8 +201,62 @@ app.post("/resetPassword", async (req, res) => {
       <p>Este link expira em 1 hora.</p>
       `,
     });
+
+    return res.status(200).json({ message: "Email enviado com sucesso" });
   } catch (err) {
+    return res
+      .status(400)
+      .json({ message: "Falha ao enviar email do servidor" });
     console.log(err);
+  }
+});
+
+app.post("/changePass", async (req, res) => {
+  const { senha, confirmarsenha, token } = req.body;
+  const user = await User.findOne({
+    resetToken: token,
+    resetTokenExpire: { $gt: Date.now() },
+  });
+
+  const compare = await bcrypt.compare(senha, user.senha);
+
+  if (compare) {
+    return res
+      .status(400)
+      .json({ msg: "A senha que você digitou é igual a anterior!" });
+  }
+
+  if (!user) {
+    return res.status(400).json({
+      msg: "Token inválido ou expirado, gere um novo link",
+      isAuthenticated: false,
+    });
+  }
+  if (senha.length < 10) {
+    return res
+      .status(422)
+      .json({ msg: "A senha deve conter no mínimo 10 caracteres" });
+  }
+
+  if (!/[!@#$%&*]/.test(senha)) {
+    return res
+      .status(422)
+      .json({ msg: "A senha deve conter um caractere especial" });
+  }
+
+  if (senha !== confirmarsenha) {
+    return res.status(400).json({ msg: "As senhas não condicem" });
+  }
+
+  try {
+    const salt = await bcrypt.genSalt(12);
+    user.senha = await bcrypt.hash(senha, salt);
+    user.resetToken = undefined;
+    user.resetTokenExpire = undefined;
+    await user.save();
+    res.status(200).json({ msg: "Senha redefinida com sucesso!" });
+  } catch (err) {
+    res.status(500).json({ msg: "Erro ao redefinir senha" });
   }
 });
 
