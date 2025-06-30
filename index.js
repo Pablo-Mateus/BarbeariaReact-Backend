@@ -12,6 +12,7 @@ const authenticateToken = require("./middleware/auth");
 const noidemailer = require("nodemailer");
 const crypto = require("crypto");
 const criarHorario = require("./schemas/Agendamento");
+const Horarios = require("./schemas/Agendamento");
 app.use(
   cors({
     origin: "http://localhost:5173",
@@ -24,6 +25,35 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
+app.post("/getTimes", async (req, res) => {
+  try {
+    const horario = await criarHorario.findOne({
+      diasemana: req.body.dia,
+    });
+  
+    if (!horario) {
+      return res
+        .status(400)
+        .json({ message: "Nenhum horário encontrado para o dia" });
+    }
+
+    let arrayminutos = horario.arraydehorarios;
+    let arrayformat = [];
+    arrayminutos.forEach((item) => {
+      const horas = Math.floor(item / 60);
+      const minutos = item % 60;
+      const horasFormat = `${horas}:${minutos.toString().padStart(2, "0")}`;
+      arrayformat.push(horasFormat);
+    });
+
+    return res
+      .status(200)
+      .json({ horarios: arrayformat, intervalo: horario.intervalo });
+  } catch (err) {
+    return res.status(400).json({ message: err });
+  }
+});
+
 app.post("/DefinirHorario", async (req, res) => {
   const inicioMinutos =
     +req.body.inicio.split(":")[0] * 60 + +req.body.inicio.split(":")[1];
@@ -31,14 +61,23 @@ app.post("/DefinirHorario", async (req, res) => {
     +req.body.fim.split(":")[0] * 60 + +req.body.fim.split(":")[1];
   const intervalo = +req.body.intervalo;
 
-  if (inicioMinutos >= 720) {
-    return res
-      .status(400)
-      .json({
-        message: "O horário de inicio não pode ser superior ao de encerramento",
-      });
+  let minutosTotais;
+
+  if (fimMinutos > inicioMinutos) {
+    minutosTotais = fimMinutos - inicioMinutos;
+  } else {
+    minutosTotais = 1440 - inicioMinutos + fimMinutos;
   }
-  console.log(inicioMinutos);
+  let slotsHorario = [];
+  for (
+    let minutoAtual = inicioMinutos;
+    minutoAtual <= inicioMinutos + minutosTotais;
+    minutoAtual += intervalo
+  ) {
+    let minutoAtualDia = minutoAtual % 1440;
+    slotsHorario.push(minutoAtualDia);
+  }
+  console.log(slotsHorario);
   const exists = await criarHorario.findOne({
     diasemana: req.body.diaSemana,
   });
@@ -51,6 +90,7 @@ app.post("/DefinirHorario", async (req, res) => {
           inicio: inicioMinutos,
           fim: fimMinutos,
           intervalo: intervalo,
+          arraydehorarios: slotsHorario,
         },
       }
     );
@@ -63,6 +103,7 @@ app.post("/DefinirHorario", async (req, res) => {
         inicio: inicioMinutos,
         fim: fimMinutos,
         intervalo: intervalo,
+        arraydehorarios: slotsHorario,
       });
       await horario.save();
       return res.status(200).json({ message: "Horários criados com sucesso!" });
