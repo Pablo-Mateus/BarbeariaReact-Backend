@@ -11,6 +11,7 @@ const cookieParser = require("cookie-parser");
 const authenticateToken = require("./middleware/auth");
 const noidemailer = require("nodemailer");
 const crypto = require("crypto");
+const criarHorario = require("./schemas/Agendamento");
 app.use(
   cors({
     origin: "http://localhost:5173",
@@ -22,6 +23,57 @@ app.use(
 
 app.use(express.json());
 app.use(cookieParser());
+
+app.post("/DefinirHorario", async (req, res) => {
+  const inicioMinutos =
+    +req.body.inicio.split(":")[0] * 60 + +req.body.inicio.split(":")[1];
+  const fimMinutos =
+    +req.body.fim.split(":")[0] * 60 + +req.body.fim.split(":")[1];
+  const intervalo = +req.body.intervalo;
+
+  if (inicioMinutos >= 720) {
+    return res
+      .status(400)
+      .json({
+        message: "O horário de inicio não pode ser superior ao de encerramento",
+      });
+  }
+  console.log(inicioMinutos);
+  const exists = await criarHorario.findOne({
+    diasemana: req.body.diaSemana,
+  });
+
+  if (exists) {
+    await criarHorario.updateOne(
+      { diasemana: req.body.diaSemana },
+      {
+        $set: {
+          inicio: inicioMinutos,
+          fim: fimMinutos,
+          intervalo: intervalo,
+        },
+      }
+    );
+  }
+
+  if (!exists) {
+    try {
+      const horario = new criarHorario({
+        diasemana: req.body.diaSemana,
+        inicio: inicioMinutos,
+        fim: fimMinutos,
+        intervalo: intervalo,
+      });
+      await horario.save();
+      return res.status(200).json({ message: "Horários criados com sucesso!" });
+    } catch (err) {
+      console.log(err);
+      return res
+        .status(200)
+        .json({ message: `Ocorreu um erro ao criar horários` });
+    }
+  }
+});
 
 app.get("/check-auth", authenticateToken, (req, res) => {
   if (req.user) {

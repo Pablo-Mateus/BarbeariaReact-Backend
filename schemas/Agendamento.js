@@ -8,6 +8,6 @@ const HorariosSchema = new mongoose.Schema({
   arraydehorarios: [],
 });
 
-const Horarios = mongoose.model("Horarios", AgendamentoSchema);
+const Horarios = mongoose.model("Horarios", HorariosSchema);
 
 module.exports = Horarios;
