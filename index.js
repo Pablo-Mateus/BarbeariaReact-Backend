@@ -30,7 +30,7 @@ app.post("/getTimes", async (req, res) => {
     const horario = await criarHorario.findOne({
       diasemana: req.body.dia,
     });
-  
+
     if (!horario) {
       return res
         .status(400)
@@ -63,6 +63,12 @@ app.post("/DefinirHorario", async (req, res) => {
 
   let minutosTotais;
 
+  if (inicioMinutos > fimMinutos) {
+    return res.status(400).json({
+      message: "Inicio do expediente maior que o encerramento!",
+    });
+  }
+
   if (fimMinutos > inicioMinutos) {
     minutosTotais = fimMinutos - inicioMinutos;
   } else {
@@ -77,7 +83,7 @@ app.post("/DefinirHorario", async (req, res) => {
     let minutoAtualDia = minutoAtual % 1440;
     slotsHorario.push(minutoAtualDia);
   }
-  console.log(slotsHorario);
+  
   const exists = await criarHorario.findOne({
     diasemana: req.body.diaSemana,
   });
