@@ -83,7 +83,7 @@ app.post("/DefinirHorario", async (req, res) => {
     let minutoAtualDia = minutoAtual % 1440;
     slotsHorario.push(minutoAtualDia);
   }
-  
+
   const exists = await criarHorario.findOne({
     diasemana: req.body.diaSemana,
   });
