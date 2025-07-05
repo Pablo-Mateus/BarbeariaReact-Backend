@@ -13,6 +13,7 @@ const noidemailer = require("nodemailer");
 const crypto = require("crypto");
 const criarHorario = require("./schemas/Agendamento");
 const Horarios = require("./schemas/Agendamento");
+const Agendado = require("./schemas/Agendado");
 app.use(
   cors({
     origin: "http://localhost:5173",
@@ -24,6 +25,8 @@ app.use(
 
 app.use(express.json());
 app.use(cookieParser());
+
+app.post("/createSchedule", authenticateToken, (req, res) => {});
 
 app.post("/getTimes", async (req, res) => {
   try {
