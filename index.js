@@ -26,7 +26,39 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
-app.post("/createSchedule", authenticateToken, (req, res) => {});
+app.post("/createSchedule", authenticateToken, async (req, res) => {
+  const { tempo, value, servico, hora } = req.body;
+
+  const convertHora = +tempo.split(":")[0] * 60;
+  const convertMinuto = +tempo.split(":")[1];
+  const minutoTotal = convertHora + convertMinuto;
+  console.log(minutoTotal);
+  console.log(req.body);
+  if (!tempo) {
+    res.status(400).json({
+      message: "Para criar um agendamento é necessário selecionar um horário.",
+    });
+  }
+  if (!servico) {
+    res.status(400).json({
+      message: "Para criar um agendamento é necessário selecionar um serviço.",
+    });
+  }
+  try {
+    const agendado = new Agendado({
+      nome: req.user.name,
+      servico,
+      horario: tempo,
+      tempo: hora,
+      status: "Aguardando aceite",
+    });
+
+    await agendado.save();
+    res.status(200).json({ message: "Agendamento criado com sucesso!" });
+  } catch (err) {
+    console.log(err);
+  }
+});
 
 app.post("/getTimes", async (req, res) => {
   try {
@@ -127,7 +159,9 @@ app.post("/DefinirHorario", async (req, res) => {
 
 app.get("/check-auth", authenticateToken, (req, res) => {
   if (req.user) {
-    return res.status(200).json({ isAuthenticated: true, user: req.user.id });
+    return res
+      .status(200)
+      .json({ isAuthenticated: true, user: req.user.id, name: req.user });
   }
   return res
     .status(401)
@@ -189,9 +223,13 @@ app.post("/auth/register", async (req, res) => {
     });
     await user.save();
 
-    const token = jwt.sign({ id: user.email }, process.env.SECRET, {
-      expiresIn: "1h",
-    });
+    const token = jwt.sign(
+      { id: user.email, name: user.nome },
+      process.env.SECRET,
+      {
+        expiresIn: "1h",
+      }
+    );
 
     const decoded = jwt.verify(token, process.env.SECRET);
 
@@ -212,7 +250,7 @@ app.post("/auth/register", async (req, res) => {
   } catch (error) {
     console.log(error);
     res.status(500).json({
-      msg: "Aconteceu um erro no servidor, tente novamente mais tarde.",
+      msg: `Aconteceu um erro no servidor, tente novamente mais tarde.${error}`,
     });
   }
 });
@@ -243,9 +281,13 @@ app.post("/auth/login", async (req, res) => {
   }
 
   try {
-    const token = jwt.sign({ id: user.email }, process.env.SECRET, {
-      expiresIn: "1h",
-    });
+    const token = jwt.sign(
+      { id: user.email, name: user.nome },
+      process.env.SECRET,
+      {
+        expiresIn: "1h",
+      }
+    );
 
     const decoded = jwt.verify(token, process.env.SECRET);
 
