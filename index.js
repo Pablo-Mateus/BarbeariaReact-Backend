@@ -26,14 +26,38 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
+app.get("/showSchedule", authenticateToken, async (req, res) => {
+  try {
+    if (req.user.id !== "felipe@gmail.com") {
+      const agendado = await Agendado.findOne({ nome: req.user.name });
+      return res.status(200).json({ usuario: agendado });
+    } else {
+      const agendados = await Agendado.find();
+      return res.status(200).json({ usuarios: agendado });
+    }
+  } catch (err) {
+    console.log(err);
+    res.status(400).json({ message: err });
+  }
+});
+
 app.post("/createSchedule", authenticateToken, async (req, res) => {
-  const { tempo, value, servico, hora } = req.body;
+  const { tempo, value, servico, hora, diaSemana } = req.body;
 
   const convertHora = +tempo.split(":")[0] * 60;
   const convertMinuto = +tempo.split(":")[1];
   const minutoTotal = convertHora + convertMinuto;
-  console.log(minutoTotal);
-  console.log(req.body);
+  const minutoServico = minutoTotal + +req.body.hora;
+
+  const arrayFormat = [];
+  const arrayMinutos = [];
+  for (let i = minutoTotal; i <= minutoServico; i += req.body.intervalo) {
+    arrayMinutos.push(i);
+    const horaFormat = Math.floor(i / 60).toString();
+    const minutoFormat = (i % 60).toString().padStart(2, "0");
+    arrayFormat.push(`${horaFormat}:${minutoFormat}`);
+  }
+
   if (!tempo) {
     res.status(400).json({
       message: "Para criar um agendamento é necessário selecionar um horário.",
@@ -51,9 +75,19 @@ app.post("/createSchedule", authenticateToken, async (req, res) => {
       horario: tempo,
       tempo: hora,
       status: "Aguardando aceite",
+      horarios: arrayFormat,
+      horariosMinutos: arrayMinutos,
     });
 
     await agendado.save();
+
+    await Horarios.updateOne(
+      { diasemana: diaSemana },
+      {
+        $pull: { disponiveis: { $in: arrayMinutos } },
+      }
+    );
+
     res.status(200).json({ message: "Agendamento criado com sucesso!" });
   } catch (err) {
     console.log(err);
@@ -81,9 +115,20 @@ app.post("/getTimes", async (req, res) => {
       arrayformat.push(horasFormat);
     });
 
-    return res
-      .status(200)
-      .json({ horarios: arrayformat, intervalo: horario.intervalo });
+    let arrayDisponivel = horario.disponiveis;
+    let disponivel = [];
+    arrayDisponivel.forEach((item) => {
+      const horas = Math.floor(item / 60);
+      const minutos = item % 60;
+      const horasFormat = `${horas}:${minutos.toString().padStart(2, "0")}`;
+      disponivel.push(horasFormat);
+    });
+
+    return res.status(200).json({
+      horarios: arrayformat,
+      intervalo: horario.intervalo,
+      disponiveis: disponivel,
+    });
   } catch (err) {
     return res.status(400).json({ message: err });
   }
@@ -132,9 +177,13 @@ app.post("/DefinirHorario", async (req, res) => {
           fim: fimMinutos,
           intervalo: intervalo,
           arraydehorarios: slotsHorario,
+          disponiveis: slotsHorario,
         },
       }
     );
+    return res
+      .status(200)
+      .json({ message: "Horários atualizados com sucesso!" });
   }
 
   if (!exists) {
@@ -145,6 +194,7 @@ app.post("/DefinirHorario", async (req, res) => {
         fim: fimMinutos,
         intervalo: intervalo,
         arraydehorarios: slotsHorario,
+        disponiveis: slotsHorario,
       });
       await horario.save();
       return res.status(200).json({ message: "Horários criados com sucesso!" });
