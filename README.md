@@ -4,13 +4,9 @@ Sobre o Projeto
 
 ✨ Funcionalidades
 
-🚀 Demonstração ao Vivo
-
 🖼️ Telas da Aplicação
 
 🛠️ Tecnologias Utilizadas
-
-🏁 Como Rodar o Projeto Localmente
 
 🧠 Desafios e Aprendizados
 
