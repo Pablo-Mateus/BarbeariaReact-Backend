@@ -41,79 +41,8 @@ Para Clientes:
 
 [✔] Gestão de clientes.
 
-Com certeza! Um bom README é como um currículo para o seu projeto: ele é a primeira impressão que um recrutador ou líder técnico terá do seu trabalho. Para uma vaga de emprego, ele precisa ser claro, profissional e destacar suas habilidades.
-
-Preparei um modelo completo e detalhado para você. Copie e cole o conteúdo abaixo em um arquivo chamado README.md na raiz do seu projeto e preencha as seções marcadas com ``.
-
-BarberFlow - Sistema de Agendamento para Barbearias
-📖 Índice
-Sobre o Projeto
-
-✨ Funcionalidades
-
-🚀 Demonstração ao Vivo
-
-🖼️ Telas da Aplicação
-
-🛠️ Tecnologias Utilizadas
-
-🏁 Como Rodar o Projeto Localmente
-
-🧠 Desafios e Aprendizados
-
-📫 Contato
-
-💻 Sobre o Projeto
-O BarberFlow é uma aplicação Full Stack desenvolvida para modernizar e otimizar o processo de agendamento em barbearias. A plataforma oferece uma interface intuitiva tanto para os clientes, que podem agendar horários com facilidade, quanto para os administradores, que têm controle total sobre a agenda e os serviços oferecidos.
-
-Este projeto foi criado como parte do meu portfólio pessoal para demonstrar minhas habilidades em desenvolvimento web, desde a concepção da UI/UX até a implementação do back-end e gerenciamento do banco de dados.
-
-✨ Funcionalidades
-Para Clientes:
-[✔] Cadastro e Login de usuários com autenticação segura (JWT).
-
-[✔] Visualização dos horários disponíveis em um calendário interativo.
-
-[✔] Agendamento de serviços de forma rápida e simples.
-
-[✔] Visualização do histórico de agendamentos pessoais.
-
-[✔] ### Para o Administrador (Barbeiro):
-
-[✔] Definição dos dias e horários de trabalho.
-
-[✔] Definição dos intervalos entre os atendimentos.
-
-[✔] Visualização de todos os agendamentos confirmados por dia.
-
-[✔] Gestão de clientes.
-
-[✔] ---
-
-🚀 Demonstração ao Vivo
-Você pode testar a aplicação em funcionamento através do link abaixo:
-
-Acessar a Demonstração do BarberFlow
-
-Login de Admin (para teste):
-Email: admin@teste.com
-Senha: 123456
-
-🖼️ Telas da Aplicação
-Tela de Login
-
-Calendário de Agendamento
-
-Painel do Admin
-
-https://example.com/link-da-sua-imagem-login.png" width="250">
-
-https://example.com/link-da-sua-imagem-calendario.png" width="250">
-
-https://example.com/link-da-sua-imagem-admin.png" width="250">
 
 
-Exportar para as Planilhas
 🛠️ Tecnologias Utilizadas
 Este projeto foi construído com as seguintes tecnologias:
 
