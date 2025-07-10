@@ -26,10 +26,16 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
+app.post("/cancelSchedule", authenticateToken, async (req, res) => {
+  const { agendamento } = req.body;
+  const agendado = await Agendado.findById(agendamento);
+  console.log(agendado);
+});
+
 app.get("/showSchedule", authenticateToken, async (req, res) => {
   try {
-    if (req.user.id !== "felipe@gmail.com") {
-      const agendado = await Agendado.findOne({ nome: req.user.name });
+    if (req.user.id !== process.env.ADMIN_EMAIL) {
+      const agendado = await Agendado.find({ nome: req.user.name });
       return res.status(200).json({ usuario: agendado });
     } else {
       const agendados = await Agendado.find();
@@ -37,7 +43,7 @@ app.get("/showSchedule", authenticateToken, async (req, res) => {
     }
   } catch (err) {
     console.log(err);
-    res.status(400).json({ message: err });
+    return res.status(400).json({ message: err });
   }
 });
 
@@ -59,17 +65,18 @@ app.post("/createSchedule", authenticateToken, async (req, res) => {
   }
 
   if (!tempo) {
-    res.status(400).json({
+    return res.status(400).json({
       message: "Para criar um agendamento é necessário selecionar um horário.",
     });
   }
   if (!servico) {
-    res.status(400).json({
+    return res.status(400).json({
       message: "Para criar um agendamento é necessário selecionar um serviço.",
     });
   }
   try {
     const agendado = new Agendado({
+      dia: diaSemana,
       nome: req.user.name,
       servico,
       horario: tempo,
@@ -88,7 +95,7 @@ app.post("/createSchedule", authenticateToken, async (req, res) => {
       }
     );
 
-    res.status(200).json({ message: "Agendamento criado com sucesso!" });
+    return res.status(200).json({ message: "Agendamento criado com sucesso!" });
   } catch (err) {
     console.log(err);
   }
@@ -283,7 +290,7 @@ app.post("/auth/register", async (req, res) => {
 
     const decoded = jwt.verify(token, process.env.SECRET);
 
-    if (decoded.id === "felipe@gmail.com") {
+    if (decoded.id === process.env.ADMIN_EMAIL) {
       return res.status(200).json({
         message: "Autenticado com sucesso",
         token: token,
@@ -299,7 +306,7 @@ app.post("/auth/register", async (req, res) => {
     });
   } catch (error) {
     console.log(error);
-    res.status(500).json({
+    return res.status(500).json({
       msg: `Aconteceu um erro no servidor, tente novamente mais tarde.${error}`,
     });
   }
@@ -308,24 +315,24 @@ app.post("/auth/register", async (req, res) => {
 app.post("/auth/login", async (req, res) => {
   const { senha, email } = req.body;
   if (!email) {
-    res.status(400).json({ message: "Insira seu email" });
+    return res.status(400).json({ message: "Insira seu email" });
   }
   if (!senha) {
-    res.status(400).json({ message: "Insira sua senha" });
+    return res.status(400).json({ message: "Insira sua senha" });
   }
 
   const user = await User.findOne({ email: email });
   if (!user) {
-    res.status(400).json({ message: "Esse email não existe" });
+    return res.status(400).json({ message: "Esse email não existe" });
   }
 
   const senhaCompare = await bcrypt.compare(senha, user.senha);
 
   if (!senhaCompare) {
-    res.status(400).json({ message: "Senha inválida" });
+    return res.status(400).json({ message: "Senha inválida" });
   }
   if (email !== user.email) {
-    res
+    return res
       .status(400)
       .json({ message: "Não existe usuário cadastrado com esse email" });
   }
@@ -341,7 +348,7 @@ app.post("/auth/login", async (req, res) => {
 
     const decoded = jwt.verify(token, process.env.SECRET);
 
-    if (decoded.id === "felipe@gmail.com") {
+    if (decoded.id === process.env.ADMIN_EMAIL) {
       return res.status(200).json({
         message: "Autenticado com sucesso",
         token: token,
@@ -357,7 +364,7 @@ app.post("/auth/login", async (req, res) => {
     });
   } catch (err) {
     console.log(err);
-    res.status(404).json({ message: err });
+    return res.status(404).json({ message: err });
   }
 });
 
@@ -448,9 +455,9 @@ app.post("/changePass", async (req, res) => {
     user.resetToken = undefined;
     user.resetTokenExpire = undefined;
     await user.save();
-    res.status(200).json({ msg: "Senha redefinida com sucesso!" });
+    return res.status(200).json({ msg: "Senha redefinida com sucesso!" });
   } catch (err) {
-    res.status(500).json({ msg: "Erro ao redefinir senha" });
+    return res.status(500).json({ msg: "Erro ao redefinir senha" });
   }
 });
 

@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const agendamentoSchema = new mongoose.Schema({
+  dia: String,
   nome: String,
   servico: String,
   horario: String,
