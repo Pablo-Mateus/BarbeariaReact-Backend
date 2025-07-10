@@ -27,9 +27,34 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.post("/cancelSchedule", authenticateToken, async (req, res) => {
-  const { agendamento } = req.body;
-  const agendado = await Agendado.findById(agendamento);
-  console.log(agendado);
+  try {
+    const { agendamento } = req.body;
+    const agendado = await Agendado.findById(agendamento);
+
+    const adicionarHorarios = await Horarios.findOne({
+      diasemana: agendado.dia,
+    });
+
+    const horariosCancelados = agendado.horariosMinutos;
+    const horariosAtuais = adicionarHorarios.disponiveis;
+    console.log(horariosAtuais);
+    const horariosOrdenados = [...horariosAtuais, ...horariosCancelados].sort(
+      (a, b) => a - b
+    );
+
+    await Horarios.updateOne(
+      { diasemana: agendado.dia },
+      { $set: { disponiveis: horariosOrdenados } }
+    );
+
+    await Agendado.findByIdAndDelete(agendamento);
+
+    return res
+      .status(200)
+      .json({ message: "Agendamento cancelado com sucesso" });
+  } catch (err) {
+    console.log(err);
+  }
 });
 
 app.get("/showSchedule", authenticateToken, async (req, res) => {
