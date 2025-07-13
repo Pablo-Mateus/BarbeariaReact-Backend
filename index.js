@@ -38,9 +38,7 @@ app.post("/cancelSchedule", authenticateToken, async (req, res) => {
     const horariosCancelados = agendado.horariosMinutos;
     const horariosAtuais = adicionarHorarios.disponiveis;
     console.log(horariosAtuais);
-    const horariosOrdenados = [...horariosAtuais, ...horariosCancelados].sort(
-      (a, b) => a - b
-    );
+    git;
 
     await Horarios.updateOne(
       { diasemana: agendado.dia },
@@ -128,41 +126,52 @@ app.post("/createSchedule", authenticateToken, async (req, res) => {
 
 app.post("/getTimes", async (req, res) => {
   try {
-    const horario = await criarHorario.findOne({
-      diasemana: req.body.dia,
+    const horario = await Horarios.findOne({
+      diasemana: req.body.dia, // req.body.dia será "Segunda", "Terca", etc.
     });
 
     if (!horario) {
-      return res
-        .status(400)
-        .json({ message: "Nenhum horário encontrado para o dia" });
+      // <--- CORREÇÃO CRUCIAL AQUI ---
+      // Se não encontrou horário definido para o dia, retorna 200 OK com arrays vazios
+      return res.status(200).json({
+        horarios: [], // arraydehorarios formatado (Horário Início/Fim do expediente)
+        intervalo: null, // intervalo do serviço (ex: 15, 30)
+        disponiveis: [], // array de slots disponíveis formatados
+        message: "Nenhum horário definido para este dia.", // Mensagem para o frontend
+      });
     }
 
-    let arrayminutos = horario.arraydehorarios;
-    let arrayformat = [];
-    arrayminutos.forEach((item) => {
-      const horas = Math.floor(item / 60);
-      const minutos = item % 60;
-      const horasFormat = `${horas}:${minutos.toString().padStart(2, "0")}`;
-      arrayformat.push(horasFormat);
-    });
+    // Converter 'arraydehorarios' (minutos) para formato HH:MM
+    let arrayHorariosDefinidosFormatado = [];
+    if (horario.arraydehorarios && Array.isArray(horario.arraydehorarios)) {
+      horario.arraydehorarios.forEach((item) => {
+        const horas = Math.floor(item / 60);
+        const minutos = item % 60;
+        const horasFormat = `${horas}:${minutos.toString().padStart(2, "0")}`;
+        arrayHorariosDefinidosFormatado.push(horasFormat);
+      });
+    }
 
-    let arrayDisponivel = horario.disponiveis;
-    let disponivel = [];
-    arrayDisponivel.forEach((item) => {
-      const horas = Math.floor(item / 60);
-      const minutos = item % 60;
-      const horasFormat = `${horas}:${minutos.toString().padStart(2, "0")}`;
-      disponivel.push(horasFormat);
-    });
+    // Converter 'disponiveis' (minutos) para formato HH:MM
+    let arraySlotsDisponiveisFormatado = [];
+    if (horario.disponiveis && Array.isArray(horario.disponiveis)) {
+      horario.disponiveis.forEach((item) => {
+        const horas = Math.floor(item / 60);
+        const minutos = item % 60;
+        const horasFormat = `${horas}:${minutos.toString().padStart(2, "0")}`;
+        arraySlotsDisponiveisFormatado.push(horasFormat);
+      });
+    }
 
     return res.status(200).json({
-      horarios: arrayformat,
-      intervalo: horario.intervalo,
-      disponiveis: disponivel,
+      horarios: arrayHorariosDefinidosFormatado, // Horário de início/fim definido (formatado)
+      intervalo: horario.intervalo ? horario.intervalo.toString() : null, // Garante que é string ou null
+      disponiveis: arraySlotsDisponiveisFormatado, // Slots disponíveis (formatado)
+      message: "Horários carregados com sucesso.", // Mensagem para o frontend
     });
   } catch (err) {
-    return res.status(400).json({ message: err });
+    console.error("Erro no /getTimes:", err); // Use console.error
+    return res.status(500).json({ message: "Erro interno do servidor ao buscar horários." });
   }
 });
 
