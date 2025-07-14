@@ -38,14 +38,20 @@ app.post("/cancelSchedule", authenticateToken, async (req, res) => {
     const horariosCancelados = agendado.horariosMinutos;
     const horariosAtuais = adicionarHorarios.disponiveis;
     console.log(horariosAtuais);
-  
 
     await Horarios.updateOne(
       { diasemana: agendado.dia },
       { $set: { disponiveis: horariosCancelados } }
     );
 
-    
+    await Agendado.updateOne(
+      {
+        _id: agendamentoId,
+      },
+      {
+        $set: { status: "Cancelado pelo usuário" },
+      }
+    );
 
     return res
       .status(200)
