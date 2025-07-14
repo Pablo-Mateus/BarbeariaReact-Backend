@@ -28,8 +28,8 @@ app.use(cookieParser());
 
 app.post("/cancelSchedule", authenticateToken, async (req, res) => {
   try {
-    const { agendamento } = req.body;
-    const agendado = await Agendado.findById(agendamento);
+    const { agendamentoId } = req.body;
+    const agendado = await Agendado.findById(agendamentoId);
 
     const adicionarHorarios = await Horarios.findOne({
       diasemana: agendado.dia,
@@ -38,14 +38,14 @@ app.post("/cancelSchedule", authenticateToken, async (req, res) => {
     const horariosCancelados = agendado.horariosMinutos;
     const horariosAtuais = adicionarHorarios.disponiveis;
     console.log(horariosAtuais);
-    git;
+  
 
     await Horarios.updateOne(
       { diasemana: agendado.dia },
-      { $set: { disponiveis: horariosOrdenados } }
+      { $set: { disponiveis: horariosCancelados } }
     );
 
-    await Agendado.findByIdAndDelete(agendamento);
+    
 
     return res
       .status(200)
@@ -71,7 +71,7 @@ app.get("/showSchedule", authenticateToken, async (req, res) => {
 });
 
 app.post("/createSchedule", authenticateToken, async (req, res) => {
-  const { tempo, value, servico, hora, diaSemana } = req.body;
+  const { tempo, value, servico, hora, diaSemana, date } = req.body;
 
   const convertHora = +tempo.split(":")[0] * 60;
   const convertMinuto = +tempo.split(":")[1];
@@ -107,6 +107,7 @@ app.post("/createSchedule", authenticateToken, async (req, res) => {
       status: "Aguardando aceite",
       horarios: arrayFormat,
       horariosMinutos: arrayMinutos,
+      createdAt: date,
     });
 
     await agendado.save();
@@ -171,7 +172,9 @@ app.post("/getTimes", async (req, res) => {
     });
   } catch (err) {
     console.error("Erro no /getTimes:", err); // Use console.error
-    return res.status(500).json({ message: "Erro interno do servidor ao buscar horários." });
+    return res
+      .status(500)
+      .json({ message: "Erro interno do servidor ao buscar horários." });
   }
 });
 
