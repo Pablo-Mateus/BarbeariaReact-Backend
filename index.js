@@ -26,6 +26,18 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
+app.post("/deleteSchedule", authenticateToken, async (req, res) => {
+  try {
+    await Agendado.deleteMany({ status: "Cancelado pelo usuário" });
+    return res
+      .status(200)
+      .json({ message: "Agendamentos cancelados com sucesso!" });
+  } catch (err) {
+    console.log(err);
+    return res.status(400).json({ message: err });
+  }
+});
+
 app.post("/cancelSchedule", authenticateToken, async (req, res) => {
   try {
     const { agendamentoId } = req.body;
@@ -37,11 +49,10 @@ app.post("/cancelSchedule", authenticateToken, async (req, res) => {
 
     const horariosCancelados = agendado.horariosMinutos;
     const horariosAtuais = adicionarHorarios.disponiveis;
-    console.log(horariosAtuais);
 
     await Horarios.updateOne(
       { diasemana: agendado.dia },
-      { $set: { disponiveis: horariosCancelados } }
+      { $push: { disponiveis: { $each: horariosCancelados, $sort: 1 } } }
     );
 
     await Agendado.updateOne(
@@ -67,8 +78,8 @@ app.get("/showSchedule", authenticateToken, async (req, res) => {
       const agendado = await Agendado.find({ nome: req.user.name });
       return res.status(200).json({ usuario: agendado });
     } else {
-      const agendados = await Agendado.find();
-      return res.status(200).json({ usuarios: agendado });
+      const agendado = await Agendado.find();
+      return res.status(200).json({ usuario: agendado });
     }
   } catch (err) {
     console.log(err);
@@ -79,14 +90,16 @@ app.get("/showSchedule", authenticateToken, async (req, res) => {
 app.post("/createSchedule", authenticateToken, async (req, res) => {
   const { tempo, value, servico, hora, diaSemana, date } = req.body;
 
+  const horario = await Horarios.findOne({ diasemana: diaSemana });
+
   const convertHora = +tempo.split(":")[0] * 60;
   const convertMinuto = +tempo.split(":")[1];
   const minutoTotal = convertHora + convertMinuto;
-  const minutoServico = minutoTotal + +req.body.hora;
+  const minutoServico = minutoTotal + req.body.hora;
 
   const arrayFormat = [];
   const arrayMinutos = [];
-  for (let i = minutoTotal; i <= minutoServico; i += req.body.intervalo) {
+  for (let i = minutoTotal; i <= minutoServico; i += horario.intervalo) {
     arrayMinutos.push(i);
     const horaFormat = Math.floor(i / 60).toString();
     const minutoFormat = (i % 60).toString().padStart(2, "0");
@@ -184,7 +197,7 @@ app.post("/getTimes", async (req, res) => {
   }
 });
 
-app.post("/DefinirHorario", async (req, res) => {
+app.post("/DefinirHorario", authenticateToken, async (req, res) => {
   const inicioMinutos =
     +req.body.inicio.split(":")[0] * 60 + +req.body.inicio.split(":")[1];
   const fimMinutos =
