@@ -26,6 +26,18 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
+app.post("/archiveCanceledSchedules", authenticateToken, async(req,res)=>{
+
+  try{
+  await Agendado.updateMany({nome:req.user.name},{
+    $set: {isArchived: true}
+  })
+    res.status(200).json({message: "Arquivamento realizado com sucesso!"})
+  }catch(err){
+    res.status(400).json({message: "Não foi possível arquivar os agendamentos", err})
+  }
+})
+
 app.post("/deleteSchedule", authenticateToken, async (req, res) => {
   try {
     await Agendado.deleteMany({ status: "Cancelado pelo usuário" });

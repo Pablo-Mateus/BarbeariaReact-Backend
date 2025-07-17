@@ -11,6 +11,7 @@ const agendamentoSchema = new mongoose.Schema({
   horarios: Array,
   horariosMinutos: Array,
   createdAt: Date,
+  isArchived: {type: Boolean, default: false},
 });
 
 const Agendado = mongoose.model("Agendado", agendamentoSchema);
