@@ -38,6 +38,18 @@ app.post("/archiveCanceledSchedules", authenticateToken, async(req,res)=>{
   }
 })
 
+app.post("/confirmSchedule", authenticateToken, async (req,res)=>{
+  const {agendamentoId} = req.body
+  try{
+    await Agendado.updateOne({_id: agendamentoId}, {
+      $set: {status: "Aceito"}
+    })
+    res.status(200).json({message: "Agendamento aceito!"})
+  }catch(err){
+    res.status(400).json({message: err})
+  }
+})
+
 app.post("/deleteSchedule", authenticateToken, async (req, res) => {
   try {
     await Agendado.deleteMany({ status: "Cancelado pelo usuário" });
