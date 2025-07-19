@@ -175,7 +175,6 @@ app.post("/getTimes", async (req, res) => {
     });
 
     if (!horario) {
-      // <--- CORREÇÃO CRUCIAL AQUI ---
       // Se não encontrou horário definido para o dia, retorna 200 OK com arrays vazios
       return res.status(200).json({
         horarios: [], // arraydehorarios formatado (Horário Início/Fim do expediente)
@@ -186,6 +185,7 @@ app.post("/getTimes", async (req, res) => {
     }
 
     // Converter 'arraydehorarios' (minutos) para formato HH:MM
+
     let arrayHorariosDefinidosFormatado = [];
     if (horario.arraydehorarios && Array.isArray(horario.arraydehorarios)) {
       horario.arraydehorarios.forEach((item) => {
