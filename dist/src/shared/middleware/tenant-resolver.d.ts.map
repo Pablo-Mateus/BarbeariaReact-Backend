@@ -1,0 +1,1 @@
+{"version":3,"file":"tenant-resolver.d.ts","sourceRoot":"","sources":["../../../../src/shared/middleware/tenant-resolver.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,YAAY,EAAE,MAAM,SAAS,CAAC;AACjD,OAAO,EAAE,oBAAoB,EAAE,MAAM,mBAAmB,CAAC;AAGzD;;;;GAIG;AACH,wBAAgB,aAAa,CAC3B,GAAG,EAAE,oBAAoB,EACzB,IAAI,EAAE,QAAQ,EACd,IAAI,EAAE,YAAY,GACjB,IAAI,CAON"}

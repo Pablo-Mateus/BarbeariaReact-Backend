@@ -1,0 +1,678 @@
+[2026-02-23T13:54:56.629Z] GET /api/health - IP: ::1
+[2026-02-23T13:58:51.955Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-23T13:58:51.961Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-04-13
+[2026-02-23T13:58:52.446Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-04-06
+[2026-02-23T14:39:37.485Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-23T14:39:37.489Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-04-13
+[2026-02-23T14:39:38.073Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-04-20
+[2026-02-23T14:39:42.040Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-23T14:39:42.046Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-23T14:39:42.302Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-23T14:39:42.306Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-23T14:39:42.316Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-23T14:39:42.543Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-23T14:39:42.546Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T14:39:44.267Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T14:39:46.523Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-23
+[2026-02-23T14:39:47.067Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-16
+[2026-02-23T14:39:47.483Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-30
+[2026-02-23T14:39:48.022Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-23T14:39:48.026Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-09
+[2026-02-23T14:43:13.390Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-23T14:43:13.393Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-03-10
+[2026-02-23T14:43:13.984Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-03-11
+[2026-02-23T15:04:49.147Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-23T15:04:49.149Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-23T15:04:49.153Z] GET /api/appointments - IP: ::1
+[2026-02-23T15:04:49.158Z] GET /api/appointments - IP: ::1
+[2026-02-23T15:04:51.391Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-23T15:04:51.394Z] POST /api/appointments/availability - IP: ::1
+[2026-02-23T15:04:57.691Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-23T15:04:57.696Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-23T15:04:57.925Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-23T15:04:57.931Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-23T15:04:57.933Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-23T15:04:57.940Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-23T15:05:06.121Z] OPTIONS /api/auth/login - IP: ::1
+[2026-02-23T15:05:06.124Z] POST /api/auth/login - IP: ::1
+[2026-02-23T15:05:10.591Z] OPTIONS /api/schedules/times - IP: ::1
+[2026-02-23T15:05:10.594Z] POST /api/schedules/times - IP: ::1
+[2026-02-23T15:05:10.598Z] POST /api/schedules/times - IP: ::1
+[2026-02-23T15:05:18.737Z] OPTIONS /api/auth/login - IP: ::1
+[2026-02-23T15:05:18.740Z] POST /api/auth/login - IP: ::1
+[2026-02-23T15:05:21.367Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-23T15:05:21.370Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T15:12:57.694Z] OPTIONS /api/auth/login - IP: ::1
+[2026-02-23T15:12:57.701Z] POST /api/auth/login - IP: ::1
+[2026-02-23T15:12:59.592Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-23T15:12:59.597Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T15:13:01.502Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T15:13:02.257Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T15:13:02.729Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T15:13:03.128Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:43:12.131Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T00:43:12.142Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T00:43:12.364Z] OPTIONS /api/tenants - IP: ::1
+[2026-02-24T00:43:12.366Z] OPTIONS /api/tenants - IP: ::1
+[2026-02-24T00:43:12.368Z] GET /api/tenants - IP: ::1
+[2026-02-24T00:43:12.384Z] GET /api/tenants - IP: ::1
+[2026-02-24T00:43:14.013Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:43:14.018Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:43:14.024Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:43:22.165Z] OPTIONS /api/auth/login - IP: ::1
+[2026-02-24T00:43:22.168Z] POST /api/auth/login - IP: ::1
+[2026-02-24T00:43:23.858Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:43:23.861Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:43:24.909Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:43:25.217Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:43:59.227Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:43:59.230Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:44:03.941Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:44:04.240Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:44:04.243Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:44:05.305Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:44:07.156Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:44:07.451Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:44:11.399Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:44:11.402Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:44:13.748Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:44:14.026Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:44:15.429Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:45:20.982Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:45:20.988Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:45:21.269Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:45:25.680Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:45:26.964Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:45:26.967Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:45:27.260Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:45:29.322Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:45:30.009Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:45:30.295Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:45:32.424Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:45:32.426Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:45:53.200Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T00:45:53.207Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T00:45:53.460Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:45:53.464Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:45:53.466Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:45:53.485Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:45:53.611Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:45:53.614Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:45:54.963Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:45:55.231Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:45:56.456Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:45:57.198Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:45:57.503Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:45:58.448Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:45:59.123Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:45:59.126Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:45:59.423Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:46:00.281Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:46:00.972Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:46:01.257Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:46:02.442Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:46:03.544Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:46:03.824Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:46:05.523Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:46:05.525Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:46:06.929Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T00:46:06.937Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T00:46:07.218Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:46:07.220Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:46:07.222Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:46:07.226Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T00:46:07.281Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:46:08.341Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:46:08.625Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:46:10.412Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:46:11.212Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:46:11.215Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:46:11.528Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:46:12.614Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:46:18.570Z] OPTIONS /api/auth/login - IP: ::1
+[2026-02-24T00:46:18.573Z] POST /api/auth/login - IP: ::1
+[2026-02-24T00:46:19.883Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:46:19.886Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:46:20.798Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:46:21.082Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:05.384Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:49:05.389Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:05.538Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:05.817Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:07.008Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:08.166Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:08.467Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:09.447Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:10.194Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:49:10.474Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:49:10.476Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:49:11.258Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta, Date: 2026-02-25
+[2026-02-24T00:49:12.054Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:12.333Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:13.048Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:20.809Z] OPTIONS /api/auth/login - IP: ::ffff:127.0.0.1
+[2026-02-24T00:49:20.812Z] POST /api/auth/login - IP: ::ffff:127.0.0.1
+[2026-02-24T00:49:26.131Z] OPTIONS /api/auth/login - IP: ::ffff:127.0.0.1
+[2026-02-24T00:49:26.134Z] POST /api/auth/login - IP: ::ffff:127.0.0.1
+[2026-02-24T00:49:30.820Z] OPTIONS /api/appointments/availability - IP: ::ffff:127.0.0.1
+[2026-02-24T00:49:30.823Z] POST /api/appointments/availability - IP: ::ffff:127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:31.774Z] POST /api/appointments/availability - IP: ::ffff:127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:32.077Z] POST /api/appointments/availability - IP: ::ffff:127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:33.041Z] POST /api/appointments/availability - IP: ::ffff:127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:33.741Z] POST /api/appointments/availability - IP: ::ffff:127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:34.019Z] POST /api/appointments/availability - IP: ::ffff:127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:34.875Z] POST /api/appointments/availability - IP: ::ffff:127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:40.472Z] OPTIONS /api/appointments/availability - IP: ::ffff:127.0.0.1
+[2026-02-24T00:49:40.477Z] POST /api/appointments/availability - IP: ::ffff:127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:40.769Z] POST /api/appointments/availability - IP: ::ffff:127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:47.920Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:49:47.924Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:49.381Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:49.677Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:52.158Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:49:53.373Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:49:53.376Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:49:53.669Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:50:09.687Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:50:09.690Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:50:45.167Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:50:45.171Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:56:24.441Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:56:24.444Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:56:26.267Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:56:26.568Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:56:28.053Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T00:56:29.020Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:56:29.300Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T00:56:31.461Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T00:56:31.464Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T01:00:32.712Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:00:32.718Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:00:33.825Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T01:00:34.108Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T01:00:35.017Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca, Date: 2026-02-24
+[2026-02-24T01:00:35.713Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:00:36.016Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:00:41.875Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:00:41.878Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:12:04.396Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:12:04.399Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:12:05.167Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:12:05.170Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:12:05.432Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:12:05.435Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:12:05.442Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:12:05.704Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:18.197Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:13:18.200Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:18.502Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:19.987Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:20.624Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:20.922Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:22.249Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:27.776Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:13:27.779Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:29.207Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:31.174Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:33.534Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:13:33.538Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:13:33.799Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:13:33.800Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:13:33.802Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:13:33.807Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:13:33.868Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:13:33.870Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:34.750Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:35.063Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:13:36.181Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:14:57.277Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:14:57.279Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:15:53.887Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:15:53.889Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:15:54.193Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:15:58.566Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:15:58.568Z] POST /api/appointments - IP: ::1
+[2026-02-24T01:16:03.574Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:16:03.577Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:16:03.578Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:16:03.586Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:16:53.840Z] OPTIONS /api/auth/login - IP: ::1
+[2026-02-24T01:16:53.844Z] POST /api/auth/login - IP: ::1
+[2026-02-24T01:16:54.174Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:16:54.176Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:16:54.474Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:16:54.476Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:16:54.479Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:16:54.483Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:16:58.929Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:16:58.931Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:16:58.933Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:16:58.940Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:17:02.887Z] OPTIONS /api/schedules/times - IP: ::1
+[2026-02-24T01:17:02.890Z] OPTIONS /api/schedules/times - IP: ::1
+[2026-02-24T01:17:02.891Z] POST /api/schedules/times - IP: ::1
+[2026-02-24T01:17:02.895Z] POST /api/schedules/times - IP: ::1
+[2026-02-24T01:17:04.799Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:17:04.801Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:17:04.802Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:17:04.808Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:17:12.546Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:17:12.548Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:17:12.550Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:17:12.557Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:17:22.330Z] OPTIONS /api/schedules/times - IP: ::1
+[2026-02-24T01:17:22.331Z] OPTIONS /api/schedules/times - IP: ::1
+[2026-02-24T01:17:22.333Z] POST /api/schedules/times - IP: ::1
+[2026-02-24T01:17:22.335Z] POST /api/schedules/times - IP: ::1
+[2026-02-24T01:17:23.649Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:17:23.650Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:17:23.651Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:17:23.656Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:17:34.597Z] OPTIONS /api/appointments/confirm - IP: ::1
+[2026-02-24T01:17:34.600Z] POST /api/appointments/confirm - IP: ::1
+[2026-02-24T01:17:34.610Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:17:34.612Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:17:46.817Z] OPTIONS /api/auth/login - IP: ::1
+[2026-02-24T01:17:46.819Z] POST /api/auth/login - IP: ::1
+[2026-02-24T01:17:53.333Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:17:53.335Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:17:53.337Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:17:53.342Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:23:23.084Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:23:23.086Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:23:23.087Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:23:23.090Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:23:23.122Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:23:23.124Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:23:23.195Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:23:23.199Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:05.825Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:25:05.831Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:25:06.091Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:25:06.092Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:06.095Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:06.096Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:06.098Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:06.102Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:06.105Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:25.822Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:25:25.833Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:25:26.103Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:25:26.106Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:26.107Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:26.109Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:25:26.110Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:26.119Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:26.130Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:26.133Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:28.730Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:25:29.015Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:29.017Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:29.023Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:29.025Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:29.742Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:25:30.037Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:30.041Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:30.048Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:30.051Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:25:40.753Z] OPTIONS /api/auth/login - IP: ::1
+[2026-02-24T01:25:40.756Z] POST /api/auth/login - IP: ::1
+[2026-02-24T01:25:41.161Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:25:41.163Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:25:41.165Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:41.170Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:55.960Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:25:55.961Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:25:55.963Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:25:55.969Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:26:09.266Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:26:09.268Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:26:09.273Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:26:09.280Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:26:17.991Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:26:17.992Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:26:17.993Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:26:17.998Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:26:22.468Z] OPTIONS /api/schedules/times - IP: ::1
+[2026-02-24T01:26:22.469Z] OPTIONS /api/schedules/times - IP: ::1
+[2026-02-24T01:26:22.470Z] POST /api/schedules/times - IP: ::1
+[2026-02-24T01:26:22.475Z] POST /api/schedules/times - IP: ::1
+[2026-02-24T01:26:23.378Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:26:23.380Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:26:23.382Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:26:23.387Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:26:30.515Z] OPTIONS /api/auth/login - IP: ::1
+[2026-02-24T01:26:30.517Z] POST /api/auth/login - IP: ::1
+[2026-02-24T01:26:30.824Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:26:30.825Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:26:30.827Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:26:30.831Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:27:43.104Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:27:43.107Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:28:28.635Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:28:28.638Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:28:28.895Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:28:28.896Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:28:28.901Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:28:28.902Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:28:28.904Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:28:28.910Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:28:28.912Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:29:05.836Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:29:05.840Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:29:06.088Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:29:06.094Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:29:06.098Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:29:06.101Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:29:06.104Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:29:06.108Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:30:02.160Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:30:02.164Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:30:24.169Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:30:24.173Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:30:24.453Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:30:24.456Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:30:24.462Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:30:24.464Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:30:24.466Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:30:24.472Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:32:14.572Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:32:14.577Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:32:14.832Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:32:14.834Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:32:14.837Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:32:14.841Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:32:14.845Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:32:14.848Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:33:43.341Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:33:43.345Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:33:43.635Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:33:43.636Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:33:43.638Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:33:43.639Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:33:43.640Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:33:43.643Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:33:43.647Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:33:43.650Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:33:55.960Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:33:55.966Z] GET /api/auth/check-auth - IP: ::1
+[2026-02-24T01:33:56.263Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:33:56.265Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:33:56.266Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:33:56.267Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:33:56.269Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:33:56.272Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:33:56.275Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:33:56.278Z] GET /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:34:21.810Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:34:21.813Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:34:23.276Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:34:23.580Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:34:28.357Z] OPTIONS /api/appointments/availability - IP: ::1
+[2026-02-24T01:34:28.359Z] POST /api/appointments/availability - IP: ::1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-24T01:34:29.780Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:34:29.781Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:34:29.782Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:34:29.787Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:36:25.083Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:36:25.087Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:37:04.539Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:37:04.541Z] OPTIONS /api/appointments - IP: ::1
+[2026-02-24T01:37:04.542Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:37:04.557Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:37:07.485Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:37:07.492Z] GET /api/appointments - IP: ::1
+[2026-02-24T01:56:11.495Z] GET / - IP: ::ffff:192.168.1.6
+[2026-02-24T01:56:53.873Z] OPTIONS /api/auth/check-auth - IP: ::1
+[2026-02-24T01:56:54.128Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:56:54.130Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:56:55.819Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:56:55.820Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:56:57.876Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:56:57.878Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:58:45.082Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-02-24T01:58:45.084Z] OPTIONS /api/tenants/pablo-mateus - IP: ::1
+[2026-03-02T20:17:45.406Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:17:45.413Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:17:45.415Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:17:45.450Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:17:46.476Z] OPTIONS /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:17:46.479Z] OPTIONS /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:17:46.481Z] GET /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:17:46.495Z] GET /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:17:52.299Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:17:52.301Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:17:52.303Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:17:52.309Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:18:19.426Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:18:19.429Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:18:19.431Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:18:19.436Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:18:21.845Z] OPTIONS /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:18:21.847Z] OPTIONS /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:18:21.849Z] GET /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:18:21.854Z] GET /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:18:35.104Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:18:35.107Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:18:35.109Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:18:35.116Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:19:09.088Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:19:09.090Z] POST /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:19:16.222Z] OPTIONS /api/tenants/felipe - IP: 127.0.0.1
+[2026-03-02T20:19:16.223Z] OPTIONS /api/tenants/felipe - IP: 127.0.0.1
+[2026-03-02T20:19:16.225Z] GET /api/tenants/felipe - IP: 127.0.0.1
+[2026-03-02T20:19:16.232Z] GET /api/tenants/felipe - IP: 127.0.0.1
+[2026-03-02T20:20:09.875Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:20:09.876Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:20:09.878Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:20:09.882Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:20:27.127Z] OPTIONS /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:20:27.129Z] OPTIONS /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:20:27.131Z] GET /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:20:27.135Z] GET /api/tenants/pablo-mateus - IP: 127.0.0.1
+[2026-03-02T20:20:49.372Z] OPTIONS /api/auth/login - IP: 127.0.0.1
+[2026-03-02T20:20:49.374Z] POST /api/auth/login - IP: 127.0.0.1
+[2026-03-02T20:20:49.758Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:20:49.759Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:20:49.761Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:20:49.771Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:04.152Z] OPTIONS /api/schedules/times - IP: 127.0.0.1
+[2026-03-02T20:21:04.154Z] OPTIONS /api/schedules/times - IP: 127.0.0.1
+[2026-03-02T20:21:04.155Z] POST /api/schedules/times - IP: 127.0.0.1
+[2026-03-02T20:21:04.158Z] POST /api/schedules/times - IP: 127.0.0.1
+[2026-03-02T20:21:06.341Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:06.343Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:06.344Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:06.355Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:07.209Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:07.216Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:17.415Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:17.417Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:17.420Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:17.426Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:21.316Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:21.321Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:24.296Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:24.297Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:24.299Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:24.305Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:40.015Z] OPTIONS /api/auth/login - IP: 127.0.0.1
+[2026-03-02T20:21:40.017Z] POST /api/auth/login - IP: 127.0.0.1
+[2026-03-02T20:21:40.367Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:40.369Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:40.371Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:40.376Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:21:43.491Z] OPTIONS /api/appointments/availability - IP: 127.0.0.1
+[2026-03-02T20:21:43.494Z] POST /api/appointments/availability - IP: 127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-02
+[2026-03-02T20:21:44.488Z] POST /api/appointments/availability - IP: 127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-09
+[2026-03-02T20:21:44.792Z] POST /api/appointments/availability - IP: 127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-09
+[2026-03-02T20:22:04.034Z] OPTIONS /api/appointments/availability - IP: 127.0.0.1
+[2026-03-02T20:22:04.038Z] POST /api/appointments/availability - IP: 127.0.0.1
+[AVAILABILITY] Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-09
+[2026-03-02T20:22:08.159Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:08.161Z] POST /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:12.124Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:12.132Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:19.552Z] OPTIONS /api/auth/login - IP: 127.0.0.1
+[2026-03-02T20:22:19.554Z] POST /api/auth/login - IP: 127.0.0.1
+[2026-03-02T20:22:19.838Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:19.840Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:19.842Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:19.848Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:23.082Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:23.087Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:26.228Z] OPTIONS /api/appointments/confirm - IP: 127.0.0.1
+[2026-03-02T20:22:26.230Z] POST /api/appointments/confirm - IP: 127.0.0.1
+[2026-03-02T20:22:26.242Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:26.244Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:35.744Z] OPTIONS /api/auth/login - IP: 127.0.0.1
+[2026-03-02T20:22:35.747Z] POST /api/auth/login - IP: 127.0.0.1
+[2026-03-02T20:22:36.040Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:36.041Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:36.042Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:36.048Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:38.304Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:38.310Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:42.144Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:42.146Z] OPTIONS /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:42.148Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:42.153Z] GET /api/appointments - IP: 127.0.0.1
+[2026-03-02T20:22:55.411Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:22:55.412Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:22:55.415Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-02T20:22:55.420Z] GET /api/tenants - IP: 127.0.0.1

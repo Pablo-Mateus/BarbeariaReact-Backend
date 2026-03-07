@@ -1,0 +1,625 @@
+[2026-02-23T03:00:12.306Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-30
+[2026-02-23T03:00:12.307Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-30","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:12.320Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:12.320Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:12.326Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:19.993Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-23
+[2026-02-23T03:00:19.994Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:19.997Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:19.997Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:20.001Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:20.732Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-16
+[2026-02-23T03:00:20.732Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-16","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:20.735Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:20.736Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:20.738Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:21.833Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-09
+[2026-02-23T03:00:21.834Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-09","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:21.837Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:21.838Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:21.843Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:22.321Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-02
+[2026-02-23T03:00:22.322Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-02","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:22.326Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:22.326Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:22.329Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:25.512Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T03:00:25.513Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:25.516Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:25.517Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:25.519Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:27.729Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T03:00:27.730Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:27.733Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:27.734Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:27.736Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:28.375Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T03:00:28.375Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:28.378Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:28.378Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:28.381Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:28.554Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T03:00:28.555Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:28.558Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:28.558Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:28.560Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:28.724Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T03:00:28.725Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:28.727Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:28.727Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:28.729Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:28.892Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T03:00:28.893Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:28.895Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:28.895Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:28.898Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:00:29.050Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T03:00:29.051Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:29.053Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:00:29.053Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:00:29.056Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T03:01:00.741Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T03:01:00.741Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:01:00.743Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T03:01:00.744Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T03:01:00.746Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:54:46.721Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:54:46.725Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:54:50.889Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T11:54:50.890Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:54:50.893Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:54:50.894Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:54:50.899Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:54:50.899Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T11:54:52.166Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T11:54:52.167Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:54:52.169Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:54:52.170Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:54:52.173Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:54:52.174Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T11:54:52.885Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T11:54:52.885Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-02-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:54:52.887Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:54:52.888Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:54:52.891Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:54:52.891Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T11:55:08.172Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-02
+[2026-02-23T11:55:08.173Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-02","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:08.175Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:55:08.176Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:08.178Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:55:08.179Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T11:55:08.589Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-09
+[2026-02-23T11:55:08.590Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-09","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:08.592Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:55:08.593Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:08.595Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:55:08.596Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T11:55:08.984Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-16
+[2026-02-23T11:55:08.985Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-16","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:08.988Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:55:08.989Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:08.992Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:55:08.993Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T11:55:19.898Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-30
+[2026-02-23T11:55:19.899Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-30","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:19.902Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:55:19.902Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:19.905Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:55:19.905Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T11:55:20.379Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-23
+[2026-02-23T11:55:20.379Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-23","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:20.382Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:55:20.382Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:20.384Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:55:20.385Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T11:55:20.820Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-16
+[2026-02-23T11:55:20.821Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-16","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:20.823Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:55:20.824Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:20.827Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:55:20.827Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T11:55:23.993Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-09
+[2026-02-23T11:55:23.993Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-09","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:23.996Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T11:55:23.997Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T11:55:23.999Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T11:55:23.999Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T12:15:15.146Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-16
+[2026-02-23T12:15:15.147Z] [BaseRepository.findOne] Model: Appointment, Query: {"createdAt":"2026-03-16","status":"Aguardando aceite","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T12:15:15.150Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T12:15:15.151Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T12:15:15.153Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T12:15:15.154Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:49:47.082Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:49:47.086Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:49:48.636Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T13:49:48.645Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:49:48.650Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:49:48.650Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:49:50.007Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T13:49:50.011Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:49:50.014Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:49:50.014Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:49:50.892Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-02-23
+[2026-02-23T13:49:50.895Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:49:50.898Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:49:50.899Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:49:52.910Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-30
+[2026-02-23T13:49:52.913Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:49:52.915Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:49:52.916Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:49:53.407Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-23
+[2026-02-23T13:49:53.410Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:49:53.413Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:49:53.413Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:49:53.842Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-16
+[2026-02-23T13:49:53.844Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:49:53.847Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:49:53.848Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:50:02.529Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-09
+[2026-02-23T13:50:02.531Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:50:02.534Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:50:02.535Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:50:03.470Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-23
+[2026-02-23T13:50:03.472Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:50:03.475Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:50:03.475Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:50:04.135Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-30
+[2026-02-23T13:50:04.137Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:50:04.139Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:50:04.140Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:50:05.389Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-03-02
+[2026-02-23T13:50:05.392Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:50:05.395Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:50:05.395Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:50:10.192Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-04-27
+[2026-02-23T13:50:10.194Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:50:10.196Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:50:10.197Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:50:10.646Z] [getDayAvailability] Início - Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Segunda, Date: 2026-04-20
+[2026-02-23T13:50:10.648Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:50:10.651Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:50:10.651Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:58:52.000Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:58:52.009Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:58:52.010Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T13:58:52.452Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T13:58:52.456Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T13:58:52.457Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T14:39:37.497Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:39:37.500Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T14:39:37.501Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T14:39:38.080Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:39:38.084Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T14:39:38.085Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T14:39:42.550Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:39:42.553Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T14:39:42.553Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T14:39:44.271Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:39:44.273Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T14:39:44.273Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T14:39:46.527Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:39:46.529Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T14:39:46.530Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T14:39:47.071Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:39:47.074Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T14:39:47.075Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T14:39:47.487Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:39:47.489Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T14:39:47.490Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T14:39:48.029Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:39:48.031Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T14:39:48.032Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T14:43:13.397Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:43:13.400Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T14:43:13.400Z] [getDayAvailability] Template não encontrado para Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca
+[2026-02-23T14:43:13.988Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T14:43:13.990Z] [BaseRepository.findOne] Result found: false
+[2026-02-23T14:43:13.991Z] [getDayAvailability] Template não encontrado para Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta
+[2026-02-23T15:05:06.128Z] [BaseRepository.findOne] Model: User, Query: {"email":"pablo13mateus@hotmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:05:06.131Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:05:10.595Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:05:10.599Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:05:10.601Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:05:10.603Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:05:18.743Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:05:18.745Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:05:21.374Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:05:21.377Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:05:21.377Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T15:12:57.753Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:12:57.758Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:12:59.606Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:12:59.612Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:12:59.613Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T15:13:01.507Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:13:01.510Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:13:01.511Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T15:13:02.263Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:13:02.266Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:13:02.266Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T15:13:02.736Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:13:02.739Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:13:02.740Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-23T15:13:03.135Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-23T15:13:03.138Z] [BaseRepository.findOne] Result found: true
+[2026-02-23T15:13:03.139Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:43:22.205Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:43:22.210Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:43:23.869Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:43:23.874Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:43:23.875Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:43:24.914Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:43:24.917Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:43:24.917Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:43:25.223Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:43:25.225Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:43:25.226Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:43:59.234Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:43:59.236Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:43:59.237Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:44:03.946Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:44:03.948Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:44:03.948Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:44:04.249Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:44:04.251Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:44:04.252Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:44:05.309Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:44:05.312Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:44:05.313Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:44:07.161Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:44:07.163Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:44:07.164Z] [getDayAvailability] Template não encontrado para Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca
+[2026-02-24T00:44:07.456Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:44:07.459Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:44:07.459Z] [getDayAvailability] Template não encontrado para Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca
+[2026-02-24T00:44:11.406Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:44:11.408Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:44:11.409Z] [getDayAvailability] Template não encontrado para Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Terca
+[2026-02-24T00:44:13.753Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:44:13.755Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:44:13.755Z] [getDayAvailability] Template não encontrado para Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta
+[2026-02-24T00:44:14.030Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:44:14.032Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:44:14.032Z] [getDayAvailability] Template não encontrado para Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta
+[2026-02-24T00:44:15.434Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:44:15.436Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:44:15.436Z] [getDayAvailability] Template não encontrado para Tenant: 699b83ff4084d2fce8bdd8cb, Dia: Quarta
+[2026-02-24T00:45:21.029Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:21.032Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:45:21.274Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:21.276Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:45:25.685Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:25.687Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:45:26.970Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:26.976Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:45:26.977Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:45:27.266Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:27.269Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:45:27.269Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:45:29.326Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:29.329Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:45:29.329Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:45:30.013Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:30.016Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:45:30.300Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:30.302Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:45:32.431Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:32.433Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:45:53.654Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:53.662Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:45:53.663Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:45:54.968Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:54.971Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:45:55.237Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:55.240Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:45:56.461Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:56.463Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:45:57.203Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:57.205Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:45:57.206Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:45:57.508Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:57.511Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:45:57.512Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:45:58.452Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:58.454Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:45:58.455Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:45:59.131Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:59.134Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:45:59.135Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:45:59.427Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:45:59.430Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:45:59.430Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:46:00.288Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:00.292Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:46:00.293Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:46:00.977Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:00.979Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:01.261Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:01.264Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:02.445Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:02.448Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:03.548Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:03.550Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:03.828Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:03.830Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:05.529Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:05.532Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:07.285Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:07.288Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:46:07.288Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:46:08.346Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:08.348Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:08.630Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:08.632Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:10.416Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:10.418Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:11.218Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:11.221Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:46:11.221Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:46:11.533Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:11.535Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:46:11.536Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:46:12.618Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:12.621Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:46:12.622Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:46:18.578Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:18.581Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:46:19.890Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:19.892Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:46:19.893Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:46:20.802Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:20.804Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:46:21.087Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:46:21.090Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:05.425Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:05.429Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:05.430Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:05.543Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:05.546Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:05.546Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:05.821Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:05.824Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:05.824Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:07.014Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:07.018Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:07.019Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:08.171Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:08.177Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:08.178Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:08.472Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:08.475Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:08.476Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:09.451Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:09.454Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:09.454Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:10.198Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:10.201Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:10.201Z] [getDayAvailability] Template não encontrado para o dia Quarta (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:10.482Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:10.485Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:10.485Z] [getDayAvailability] Template não encontrado para o dia Quarta (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:11.262Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Quarta","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:11.265Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:11.265Z] [getDayAvailability] Template não encontrado para o dia Quarta (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:12.058Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:12.060Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:12.061Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:12.337Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:12.341Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:12.341Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:13.052Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:13.054Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:13.054Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:20.820Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:20.823Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:26.137Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:26.140Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:30.828Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:30.831Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:30.832Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:31.778Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:31.780Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:31.781Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:32.081Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:32.084Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:32.084Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:33.045Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:33.047Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:33.048Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:33.745Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:33.747Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:33.747Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:34.023Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:34.026Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:34.027Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:34.878Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:34.880Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:34.880Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:40.481Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:40.483Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:40.484Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:40.773Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:40.776Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:40.777Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:47.929Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:47.932Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:47.932Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:49.387Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:49.390Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:49.390Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:49.684Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:49.687Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:49.688Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:52.163Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:52.166Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:49:52.166Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:49:53.381Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:53.383Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:53.384Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:49:53.675Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:49:53.677Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:49:53.678Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:50:09.694Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:50:09.697Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:50:09.698Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:50:45.177Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:50:45.181Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:50:45.182Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:56:24.448Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:56:24.450Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:56:24.451Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:56:26.271Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:56:26.273Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:56:26.274Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:56:26.573Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:56:26.576Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:56:26.576Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:56:28.057Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:56:28.059Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T00:56:28.060Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T00:56:29.025Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:56:29.028Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:56:29.028Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:56:29.305Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:56:29.307Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:56:29.308Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T00:56:31.467Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T00:56:31.469Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T00:56:31.470Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T01:00:32.759Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:00:32.767Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:00:32.768Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:00:33.830Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:00:33.832Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T01:00:33.833Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T01:00:34.114Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:00:34.116Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T01:00:34.117Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T01:00:35.022Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Terca","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:00:35.024Z] [BaseRepository.findOne] Result found: false
+[2026-02-24T01:00:35.024Z] [getDayAvailability] Template não encontrado para o dia Terca (tenant: 699b83ff4084d2fce8bdd8cb)
+[2026-02-24T01:00:35.718Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:00:35.721Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:00:35.721Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:00:36.021Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:00:36.024Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:00:36.024Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:00:41.882Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:00:41.886Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:00:41.886Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:12:04.406Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:12:04.409Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:12:04.409Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:12:05.710Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:12:05.715Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:12:05.716Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:18.204Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:18.206Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:18.207Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:18.506Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:18.509Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:18.510Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:19.991Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:19.994Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:19.995Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:20.628Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:20.630Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:20.631Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:20.926Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:20.929Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:20.930Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:22.254Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:22.256Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:22.257Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:27.783Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:27.785Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:27.786Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:29.210Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:29.214Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:29.215Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:31.177Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:31.180Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:31.180Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:33.874Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:33.876Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:33.877Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:34.753Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:34.756Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:34.756Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:35.067Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:35.069Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:35.070Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:13:36.185Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:13:36.188Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:13:36.189Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:14:57.284Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:14:57.286Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:14:57.287Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:15:53.893Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:15:53.895Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:15:53.895Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:15:54.197Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:15:54.199Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:15:54.199Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-02-24T01:15:58.570Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:15:58.573Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:16:53.849Z] [BaseRepository.findOne] Model: User, Query: {"email":"pablo13mateus@hotmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:16:53.853Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:17:02.893Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:17:02.896Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:17:02.898Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:17:02.901Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:17:22.334Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:17:22.337Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:17:22.339Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:17:22.340Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:17:46.822Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:17:46.825Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:25:40.778Z] [BaseRepository.findOne] Model: User, Query: {"email":"pablo13mateus@hotmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:25:40.781Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:26:22.472Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:26:22.477Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:26:22.478Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:26:22.480Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:26:30.520Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:26:30.522Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:34:21.819Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:34:21.821Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:34:21.822Z] [getDayAvailability] Retornando 24 horários (com 1 agendamentos)
+[2026-02-24T01:34:23.281Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:34:23.284Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:34:23.284Z] [getDayAvailability] Retornando 24 horários (com 1 agendamentos)
+[2026-02-24T01:34:23.585Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:34:23.587Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:34:23.588Z] [getDayAvailability] Retornando 24 horários (com 1 agendamentos)
+[2026-02-24T01:34:28.365Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-02-24T01:34:28.367Z] [BaseRepository.findOne] Result found: true
+[2026-02-24T01:34:28.368Z] [getDayAvailability] Retornando 24 horários (com 1 agendamentos)
+[2026-03-02T20:20:49.380Z] [BaseRepository.findOne] Model: User, Query: {"email":"pablo13mateus@hotmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:20:49.394Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:21:04.156Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:21:04.160Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:21:04.162Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:21:04.164Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:21:40.020Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:21:40.023Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:21:43.506Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:21:43.509Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:21:43.510Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-03-02T20:21:44.493Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:21:44.495Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:21:44.496Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-03-02T20:21:44.797Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:21:44.800Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:21:44.801Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-03-02T20:22:04.044Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:22:04.049Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:22:04.050Z] [getDayAvailability] Retornando 25 horários (vazio de agendamentos)
+[2026-03-02T20:22:08.163Z] [BaseRepository.findOne] Model: Schedule, Query: {"diasemana":"Segunda","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:22:08.165Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:22:19.558Z] [BaseRepository.findOne] Model: User, Query: {"email":"pablo13mateus@hotmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:22:19.560Z] [BaseRepository.findOne] Result found: true
+[2026-03-02T20:22:35.750Z] [BaseRepository.findOne] Model: User, Query: {"email":"evansmaay@gmail.com","tenantId":"699b83ff4084d2fce8bdd8cb"}
+[2026-03-02T20:22:35.752Z] [BaseRepository.findOne] Result found: true
