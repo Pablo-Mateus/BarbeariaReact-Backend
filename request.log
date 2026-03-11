@@ -680,3 +680,9 @@
 [2026-03-08T22:17:53.992Z] GET /api/tenants - IP: 127.0.0.1
 [2026-03-08T22:17:54.004Z] GET /api/tenants - IP: 127.0.0.1
 [2026-03-08T22:17:54.006Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-11T02:05:22.278Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-11T02:05:22.282Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-11T02:07:10.472Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-11T02:07:10.473Z] OPTIONS /api/tenants - IP: 127.0.0.1
+[2026-03-11T02:07:10.474Z] GET /api/tenants - IP: 127.0.0.1
+[2026-03-11T02:07:10.476Z] GET /api/tenants - IP: 127.0.0.1
